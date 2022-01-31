@@ -4,7 +4,7 @@
 
             <!-- Left Side of Navigation Bar -->
             <div class="hidden w-full md:flex md:items-center">
-                <a class="w-full text-3xl md:text-left" href="{{ route('landingPage') }}">Airbnb</a>
+                <a class="w-full text-3xl md:text-left" href="{{ route('landingPage') }}">MyHomestay</a>
             </div>
 
             <!-- Right side of Navigation Bar -->
