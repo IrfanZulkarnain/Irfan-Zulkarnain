@@ -6,7 +6,7 @@ For my degree's graduation, I was required to build a web application that used 
 ## Requirement
 - Node.js 12.13.0 or higher
 - PHP 7.4 or higher
-----------------------------
+---
 
 ## Setup
 - Clone this repo to your desktop
@@ -14,12 +14,12 @@ For my degree's graduation, I was required to build a web application that used 
 - Run `composer install`
 - Run `npm install`
 
-----------------------------
+---
 
 ## Usage
 Run `php artisan serve` to start the application. You will then be able to access it at localhost:8000.
 
-----------------------------
+---
 
 ## Stack
 It is created using those amazing technologies:
@@ -28,7 +28,7 @@ It is created using those amazing technologies:
 - [Alpine](https://alpinejs.dev/)
 - And many others!
 
-----------------------------
+---
 
 ## License
 
