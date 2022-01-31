@@ -1,7 +1,7 @@
 # MyHomestay Web-Based Online Homestay Booking System
 For my degree's graduation, I was required to build a web application that used 3-tier architecture or above. Thus, I decided to create this website. 
 
-----------------------------
+---
 
 ## Requirement
 - Node.js 12.13.0 or higher
