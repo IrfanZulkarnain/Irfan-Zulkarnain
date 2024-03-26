@@ -11,7 +11,7 @@
                 <div class="flex items-center h-full bg-gray-900 bg-opacity-50">
                     <div class="max-w-xl px-10">
                         <h2 class="text-2xl font-semibold text-white">Quality Homestays at Affordable Prices</h2>
-                        
+
                         <button
                             class="flex items-center px-3 py-2 mt-4 text-sm font-medium text-white uppercase bg-blue-600 rounded hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
                             <a href="{{ route('properties.index') }}">Book now!</a>
@@ -85,7 +85,7 @@
                     </div>
                     <div class="w-full max-w-sm mx-auto overflow-hidden rounded-md shadow-md">
                         <div class="flex items-end justify-end w-full h-56 bg-cover"
-                            style="background-image: url('https://homestaybajet.com/webview/gambarrumah/000910_Dhm6TD-A.jpeg')">
+                            style="background-image: url('https://pix8.agoda.net/hotelImages/24329667/-1/32ee31f7ee00600168dcf1a4d62d9bc7.jpg?ca=20&ce=0&s=1024x768')">
 
                         </div>
                         <div class="px-5 py-3">

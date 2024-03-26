@@ -12,7 +12,7 @@ class PropertyController extends Controller
 {
     public function index()
     {
-        $properties = Property::getProperties();
+        $properties = Property::get();
         return view('/users/properties/index', compact("properties"));
     }
 
@@ -35,10 +35,14 @@ class PropertyController extends Controller
 
     public function show($propertyId)
     {
-        $property = Property::getPropertyInfo($propertyId);
+        $propertyModel = new Property(); // Instantiate the Property model
+        $property = $propertyModel->getPropertyInfo($propertyId);
+
         $user = User::getCommonInfo($property->user_id);
+
         return view("/users/properties/show", compact("property", "user"));
     }
+
 
     public function store(Request $request)
     {

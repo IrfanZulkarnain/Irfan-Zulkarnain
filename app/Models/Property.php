@@ -52,4 +52,9 @@ class Property extends Model
             ->where("id", $propertyId)
             ->first();
     }
+
+    public function user()
+    {
+        return $this->belongsTo(User::class, 'user_id', 'id');
+    }
 }

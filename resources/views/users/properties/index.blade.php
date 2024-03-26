@@ -79,7 +79,7 @@
                                     </span><p class="inline-flex text-lg font-bold text-gray-600">{{ $property->strtAddress }}, {{ $property->zip }} {{ $property->city }}, {{ $property->state }}
                                 </p>
                                 <br><br>
-                                <p class="text-sm text-gray-500">By {{ $property->user_id }}</p>
+                                <p class="text-sm text-gray-500">By {{ $property->user->fname }} {{ $property->user->lname }}</p>
 
                                 <div class="flex items-center my-4 space-x-4">
                                     <p class="text-sm text-gray-400">From</p>
